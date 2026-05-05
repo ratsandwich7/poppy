@@ -113,3 +113,10 @@ footer p {
 .sambor {
     background-color: rgb(156, 166, 84);
 }
+
+.greenlink a {
+    color: rgb(156, 166, 84);
+}
+.greenlink a:hover, .greenlink a:active {
+    color: rgb(255, 255, 255);
+}
