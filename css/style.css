@@ -1,13 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
 body {
     background-color: rgb(190, 91, 76);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+  line-height: 1.7;
+    margin: 0px 0 20px;
+    color: rgba(255, 255, 255, 0.75);
 }
 
 html, body {
     margin: 0;
     padding: 0;
+}
+
+ul, ol {
+    list-style-position: inside;
+    padding: 0;
+}
+
+a {
+    color: rgba(255, 201, 201, 0.75) ;
+}
+
+a:hover, a:active {
+    color: #fff;
 }
 
 header {
@@ -23,10 +41,51 @@ header img {
     border-radius: 50%;
 }
 
-header h1 {
+h1 {
     font-family: "Allison", cursive;
   font-weight: 400;
   font-style: normal;
   font-size: 80px;
+    margin: 0px 0 20px;
+    color: rgb(32, 30, 30);
+}
+
+h2 {
+    font-family: "Allison", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 55px;
+  /* text-align: center; */
+    margin: 30px 0 15px;
+    color: whitesmoke;
+}
+
+/* p {
+    font-family: "PT Serif", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.7;
+    margin: 0px 0 20px;
+    color: rgba(255, 255, 255, 0.75);   
+} */
+
+main {
+    width: 800px;
+    margin: 0 auto;
+}
+
+main img {
+    max-width: 100%;
+    margin: 30px 0 0 0;
+}
+
+.about {
+    text-align: center;
+}
+
+.caption {
+    font-size : 15px;
+    color: rgba(255, 255, 255, 0.6);
     margin: 0px 0 20px;
 }
