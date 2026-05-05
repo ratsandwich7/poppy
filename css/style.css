@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+
 body {
     background-color: rgb(190, 91, 76);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+}
+
+header img {
+    height: 250px; 
+    width: 250px; 
+    border: 15px solid #fff; 
+    border-radius: 50%;
+}
+
+header h1 {
+    font-family: "Allison", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+    margin: 0px 0 20px;
 }
